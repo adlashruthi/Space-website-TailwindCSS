@@ -50,9 +50,9 @@ const Card = (props) => {
   return (
     <div className="flex flex-col md:flex-row md:justify-around md:items-center p-[30px] sm:m-[20px]">
       <div className="flex flex-col justify-center items-center order-2 md:order-1 xl:order-1">
-        <h1 className="font-[BarlowCondensed] text-[16px] md:text-[25px] mb-[10px] text-[#979797] font-[400]  ">
+        <h5 className="font-[BarlowCondensed] text-[16px] md:text-[25px] mb-[10px] text-[#979797] font-[400]  ">
           {heading}
-        </h1>
+        </h5>
         <h3 className=" text-center text-[#FFFFFF] font-[Bellefair] text-[22px]  mb-2 md:text-[32px] font-[400]">
           {title}
         </h3>

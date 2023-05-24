@@ -1,6 +1,5 @@
 import { useState } from "react";
-//import { mockComponent } from "react-dom/test-utils";
-// import "./DestinationPage.css";
+
 import Navbar from "./Navbar";
 
 const data = [
